@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------
+# Unity generated / machine specific (never commit)
+# ---------------------------------------------------------------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/.utmp/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Unity crash / cache artifacts
+sysinfo.txt
+*.stackdump
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Exported build output that sometimes lands inside the project
+/[Ee]xport/
+[Bb]uild[Ll]ogs/
+
+# ---------------------------------------------------------------
+# IDE / editor
+# ---------------------------------------------------------------
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---------------------------------------------------------------
+# Node (relay server + test harness)
+# ---------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/packages/*/bin/
+/packages/*/obj/
+
+# ---------------------------------------------------------------
+# OS / tooling
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.freebuff/
